@@ -1,8 +1,22 @@
-#site_main{
-   /* h1{
-      text-align: center;
-      padding: 10px;
-      text-transform: uppercase;
-      color: red;
-   } */
+.bg{
+   img{
+      height: 100vh;
+      width: 100vw;
+   }
+   .travels{
+      a{
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         font-size: 40px;
+         color: white;
+         padding: 10px 20px;
+         background-color: rgb(49, 49, 228);
+
+         &:hover{
+            font-size: 45px;
+         }
+      }
+   }
 }

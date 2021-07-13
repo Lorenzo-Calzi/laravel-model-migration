@@ -1,10 +1,15 @@
 #site_header{
-    background-color: rgb(72, 219, 84);
+    background-color: rgb(111, 146, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     h1{
-        text-align: center;
         padding: 20px;
         font-size: 40px;
         text-transform: uppercase;
+    }
+    i{
+        font-size: 30px;
     }
 }

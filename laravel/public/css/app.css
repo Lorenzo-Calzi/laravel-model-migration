@@ -1,21 +1,38 @@
-#site_main {
-  /* h1{
-     text-align: center;
-     padding: 10px;
-     text-transform: uppercase;
-     color: red;
-  } */
+.bg img {
+  height: 100vh;
+  width: 100vw;
+}
+
+.bg .travels a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: white;
+  padding: 10px 20px;
+  background-color: #3131e4;
+}
+
+.bg .travels a:hover {
+  font-size: 45px;
 }
 
 #site_header {
-  background-color: #48db54;
+  background-color: #6f92dd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #site_header h1 {
-  text-align: center;
   padding: 20px;
   font-size: 40px;
   text-transform: uppercase;
+}
+
+#site_header i {
+  font-size: 30px;
 }
 
 * {
@@ -24,33 +41,80 @@
   box-sizing: border-box;
 }
 
-.travel {
-  padding: 10px;
-  border: 1px solid grey;
-  text-align: center;
-  width: 200px;
-  height: 300px;
-  margin: 30px;
-  border-radius: 10px;
+.travels {
+  display: flex;
+  justify-content: center;
 }
 
-.travel h1 {
+.travels .travel {
+  padding: 10px;
+  text-align: center;
+  width: 250px;
+  height: 350px;
+  margin: 100px 50px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.travels .travel h1 {
   border-bottom: 1px solid grey;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 
-.travel h4 {
+.travels .travel h4 {
   border-bottom: 1px solid grey;
   margin: 50px 0;
+  font-size: 25px;
+  font-weight: 600;
 }
 
-.travel span {
+.travels .travel img {
+  width: 250px;
+  height: 350px;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  border-radius: 10px;
+  opacity: 0.5;
+  border: 1px solid black;
+}
+
+.travels .travel img:hover {
+  opacity: 0.2;
+}
+
+.travels .travel span {
   background-color: red;
-  color: white;
   font-weight: 600;
   padding: 5px 8px;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 25px;
+  border: 1px solid black;
+}
+
+.back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.back a {
+  text-decoration: none;
+  color: #3131e4;
+  padding: 10px;
+}
+
+.back a:hover {
+  text-decoration: underline;
+}
+
+.back a h5 {
+  font-size: 30px;
+}
+
+.back:hover {
+  transform: scale(1.1);
 }
 
