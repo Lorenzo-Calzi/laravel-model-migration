@@ -18,7 +18,9 @@ class CreateTravelsTable extends Migration
             $table->string('destination', 100);
             $table->string('departure_date', 20);
             $table->string('return_date', 20);
-            $table->float('price');
+            $table->decimal('price', "10,2");
+            $table->text('description')->nullable();
+            $table->boolean('available')->default(0);
             $table->timestamps();
         });
     }

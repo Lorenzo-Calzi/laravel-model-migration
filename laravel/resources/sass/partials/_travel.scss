@@ -1,0 +1,26 @@
+.travel{
+    padding: 10px;
+    border: 1px solid grey;
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    margin: 30px;
+    border-radius: 10px;
+    h1{
+        border-bottom: 1px solid grey;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    h4{
+        border-bottom: 1px solid grey;
+        margin: 50px 0;
+    }
+    span{
+        background-color: red;
+        color: white;
+        font-weight: 600;
+        padding: 5px 8px;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+}

@@ -1,7 +1,56 @@
-h1 {
+#site_main {
+  /* h1{
+     text-align: center;
+     padding: 10px;
+     text-transform: uppercase;
+     color: red;
+  } */
+}
+
+#site_header {
+  background-color: #48db54;
+}
+
+#site_header h1 {
   text-align: center;
-  padding: 10px;
+  padding: 20px;
+  font-size: 40px;
   text-transform: uppercase;
-  color: red;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.travel {
+  padding: 10px;
+  border: 1px solid grey;
+  text-align: center;
+  width: 200px;
+  height: 300px;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+.travel h1 {
+  border-bottom: 1px solid grey;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.travel h4 {
+  border-bottom: 1px solid grey;
+  margin: 50px 0;
+}
+
+.travel span {
+  background-color: red;
+  color: white;
+  font-weight: 600;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-size: 20px;
 }
 
