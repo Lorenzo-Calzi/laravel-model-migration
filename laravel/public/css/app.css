@@ -103,7 +103,10 @@
 .back a {
   text-decoration: none;
   color: #3131e4;
-  padding: 10px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #3131e4;
+  color: white;
 }
 
 .back a:hover {
